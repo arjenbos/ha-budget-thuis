@@ -13,4 +13,4 @@ A custom integration for Budget Thuis.
   - You will be redirected to Budget Thuis:
     - If you aren't logged in, then Budget Thuis will show you a login page.
     - If you're already logged in, then it will redirect you back to Home Assistant oAuth2 callback (check your Home Assistant URL!).
-- Done! You only need to install the lovelace.
+- Done!
