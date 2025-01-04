@@ -26,7 +26,7 @@ class BudgetThuisCoordinator(DataUpdateCoordinator):
             hass,
             _LOGGER,
             name="Budget Thuis",
-            update_interval=timedelta(seconds=90),
+            update_interval=timedelta(minutes=60),
         )
 
     async def _async_update_data(self):
