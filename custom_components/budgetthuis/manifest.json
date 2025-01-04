@@ -1,0 +1,17 @@
+{
+  "domain": "budgetthuis",
+  "name": "Budget Thuis",
+  "codeowners": [
+    "@arjenbos"
+  ],
+  "config_flow": true,
+  "dependencies": [
+    "application_credentials"
+  ],
+  "documentation": "https://github.com/arjenbos/ha-budgetthuis",
+  "integration_type": "hub",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/arjenbos/ha-budgetthuis/issues",
+  "requirements": [],
+  "version": "1.0.0"
+}
