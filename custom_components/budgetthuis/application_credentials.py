@@ -38,7 +38,8 @@ class OAuth2Impl(AuthImplementation):
         return {
             "scope": BUDGETTHUIS_SCOPE,
             "code_challenge": self.code_challenge,
-            "code_challenge_method": "S256"
+            "code_challenge_method": "S256",
+            "label": "BudgetEnergie"
         }
 
     async def async_resolve_external_data(self, external_data: Any) -> dict:
